@@ -29,7 +29,8 @@ import Button from './Button';
             const response = await userService.signup(username,email,password,role);
             localStorage.setItem('token', response.data.token);
             this.props.history.push('/');
-
+            
+        
         } catch(e) {
             console.log(e);
         }
@@ -58,6 +59,7 @@ import Button from './Button';
             <Button size="small" value="Sign up" handleClick={this.handleClick} />
             </span>
           </>
+          
          
         </div>
         )}
