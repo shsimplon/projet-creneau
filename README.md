@@ -2,7 +2,7 @@ Explication pour lancer l'app:
 l'app est une application accessible via une seule page html, pour aller d'une page à une autre j'ai utilisé la navigation via React on utilisant les links .
 j'ai créé trois surfaces utilisateurs : profil, admin, rendez-vous.
 
-le but de l'app est que l'admin peut voir les réservations, les valider, les modifier et notifier le client que le créneau est modifié ou validé mais l'user n'a le droit que d'accèder à la page rendez-vous, donc pour gérer les conflits entre créneaux, les rôles j'ai créé deux utilisateurs avec deux roles :admin et user , ce dernier peut utiliser que la surface réservation de créneau contrairement à l'admin peut accèder aux deux pages (booking et page ) .
+le but de l'app est que l'admin peut voir les réservations, les valider, les modifier et notifier le client que le créneau est modifié ou validé mais l'user n'a le droit que d'accèder à la page rendez-vous, donc pour gérer les conflits entre créneaux, les rôles j'ai créé deux utilisateurs avec deux roles :admin et user , ce dernier peut utiliser  la surface réservation de créneau et  l'admin peut accèder  aux reservations  .
 Pour lancer l'application il devrait s'inscrire tous a bord puis se connceter et selon le role indiqué par le client soit il sera dirigé vers le page admin ou à la page rendez-vous .
 
 - Comment avez-vous trouvé l’exercice ?
