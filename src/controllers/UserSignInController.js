@@ -28,7 +28,7 @@ exports.signin = (request, response) => {
               .json({ message: "Votre mot de pass n'est pas correct" });
           } else {
             const SECRET = 'pouetpouet';
-            const MAXAGE = Math.floor(Date.now() / 1000) + 60 * 60 * 60; // 1 hour of expiration
+            const MAXAGE = Math.floor(Date.now() / 1000) + 60 * 60 ; // 1 hour of expiration
             const userObject = {
               // eslint-disable-next-line space-infix-ops
 
