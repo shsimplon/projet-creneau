@@ -1,0 +1,24 @@
+.navigation {
+    // cette classe se trouve dans le component navigation donc tous le code se trouve dedans
+    margin: 26px 0;
+    display: flex;
+
+    a {
+        margin: 10px;
+        padding: 10px;
+        position: relative;
+    }
+
+    .nav-active {
+        &::after {
+            content: "";
+            width: 85%;
+            height: 5px;
+            background: $color-1;
+            position: absolute;
+            bottom: 1px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+}
